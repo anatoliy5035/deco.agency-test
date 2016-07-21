@@ -1,0 +1,121 @@
+.wrap{
+	margin: 0 auto;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+  @extend %clear;
+}
+
+.text-content, .image-content{
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.text-content {
+  padding: 0 7% 0 22%;
+  height: 573px;
+}
+
+.text-content h1 {
+  color: #454545;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  width: 64%;
+  margin-bottom: 59px;
+  padding-top: 77px;
+}
+
+.text-content p {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'GothaProLig';
+  width: 91%;
+}
+
+.text-content-footer {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 12.5%;
+}
+
+.text-content-footer b {
+  font-weight: bold;
+  font-family: 'GothaProBol';
+}
+
+.image-content {
+  height: 573px;
+}
+
+.image-content img {
+  margin: 0 auto 0 10%;
+}
+
+.bx-pager-item {
+  display: none;
+}
+
+.btn-services {
+  @extend %btn;
+  background-color: $primarycolor;
+  padding: 15px 34px 15px 13px;
+  color: white;
+  border-radius: 50px;
+  font-size: 11px;
+  text-transform: uppercase;
+  span {
+    vertical-align: middle;
+  }
+}
+
+.btn-arrow {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 15px;
+  vertical-align: middle;
+  &::after {
+    @extend %before;
+    background-image: url(assets/img/sprite.png);
+    background-position: -5px -5px;
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.play-stop-button {
+  @extend %btn;
+  @extend %cam;
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+}
+.play-stop {
+  border: 0;
+  background: 0;
+  padding: 0;
+  position: absolute;
+  @extend %cam;
+}
+.play-stop-ico {
+  width: 17px;
+  height: 21px;
+  display: block;
+  &::after {
+    @extend  %before;
+    width: 17px;
+    height: 21px;
+    background-image: url(assets/img/sprite.png);
+    background-position: -160px -89px;
+  }
+}
+
+
+
+
