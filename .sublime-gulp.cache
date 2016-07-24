@@ -1,0 +1,1 @@
+{"D:\\YandexDisk\\Projects\\deco.agency-test\\gulpfile.js":{"sha1":"721a97d34eb6a628f71a86730fd798b4bdd743f1","tasks":{"server":{"name":"server","dependencies":""},"sass:build":{"name":"sass:build","dependencies":""},"watch":{"name":"watch","dependencies":""},"default":{"name":"default","dependencies":"sass:build server watch"}}}}
